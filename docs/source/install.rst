@@ -39,10 +39,7 @@ The website config file is located here:
 
 Definitions of the parameters in these files can be found under parameters.
 
-:ref:`parameters`
-.. figure:: hello
-
-
+:doc:`/parameters`
 
 
 
