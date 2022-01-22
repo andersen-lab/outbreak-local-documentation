@@ -1,6 +1,4 @@
+.. _parameters:
 Parameters
 ==========
-
-.. _parameters:
-
 Hello World!
