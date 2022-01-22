@@ -1,7 +1,6 @@
+: _parameters:
 Parameters
 ==========
-
-: _parameters:
 
 Parameters
 ----------
