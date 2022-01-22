@@ -37,7 +37,7 @@ The website config file is located here:
 .. code-block:: console
     /web/src/localConfig.json
 
-Definitions of the parameters in these files can be found under `parameters`_.
+Definitions of the parameters in these files can be found under :doc:`parameters`.
 
 
 Run A Docker Command
