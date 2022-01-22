@@ -1,6 +1,7 @@
 Installation
 ============
 
+.. _clone the repository:
 Clone the Repository
 --------------------
 
