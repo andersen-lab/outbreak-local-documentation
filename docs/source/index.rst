@@ -14,7 +14,6 @@ How it Works Overview
 |pic1| |text1|
 
 .. |text1| code-block:: console
-    :width: 50%
 
     1. Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_. 
     2. Pre-processed data is ingested into ElasticSearch.
