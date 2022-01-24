@@ -52,6 +52,18 @@ Bring the website up without adding or preprocessing data:
 
     * Brings up the ElasticSearch database, tornado server, and client side
 
+Run only ElasticSearch data ingest:
+
+.. code-block:: console
+
+    make run-ingest-only
+
+.. note:: 
+
+    * Runs the container that ingests data into ElasticSearch, assumes that ElasticSearch is already running
+    * Our use case for this is updating the data without shutting down the website
+
+
 Run all the services:
 
 .. code-block:: console
