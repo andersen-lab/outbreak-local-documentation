@@ -11,7 +11,8 @@ sequnces in to a website and api for original data analysis. The process is dock
 How it Works Overview
 ----------------------
 
- .. figure:: ../static/cropped_flowchart.jpg
+ .. image:: ../static/cropped_flowchart.jpg
+    :align: center
                                                                                                                              
 1. Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_.                                       
 2. Pre-processed data is ingested into ElasticSearch. 
