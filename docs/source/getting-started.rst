@@ -1,6 +1,14 @@
 Getting Started
 ===============
 
+Overview
+--------
+
+1. Install
+2. Format data
+3. Modify configuration parameters
+4. Run docker command
+
 Installation
 ------------
 
