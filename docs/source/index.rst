@@ -17,12 +17,12 @@ How it Works Overview
 
 +-------------------------------------+---------------------------------------------------------------------------------------------------+ 
 | .. figure:: ../static/flowchart.jpg | Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_.|
-|                                     | |br|                                                                                              |      
-|                                     |                                                                                                   |      
-|                                     |                                                                                                   |      
-|                                     |                                                                                                   |      
-|                                     |                                                                                                   |      
-|                                     |                                                                                                   |              
+|                                     | .                                                                                                 |      
+|                                     | .                                                                                                 |      
+|                                     | .                                                                                                 |      
+|                                     | .                                                                                                 |      
+|                                     | .                                                                                                 |      
+|                                     | .                                                                                                 |              
 |                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
 |                                     |                                                                                                   |
@@ -36,7 +36,7 @@ How it Works Overview
 +-------------------------------------+---------------------------------------------------------------------------------------------------+
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
 
-Check out how to :doc:`install` the project.
+Check out how to :doc::`install` the project.
 
 .. note::
 
