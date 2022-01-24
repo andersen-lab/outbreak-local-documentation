@@ -11,9 +11,13 @@ sequnces in to a website and api for original data analysis. The process is dock
 How it Works Overview
 ----------------------
 
+.. |br| raw:: html
+
+   <br />
+
 +-------------------------------------+---------------------------------------------------------------------------------------------------+ 
 | .. figure:: ../static/flowchart.jpg | Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_.|
-|                                     |                                                                                                   |      
+|                                     | |br|                                                                                              |      
 |                                     |                                                                                                   |      
 |                                     |                                                                                                   |      
 |                                     |                                                                                                   |      
