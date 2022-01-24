@@ -11,13 +11,12 @@ sequnces in to a website and api for original data analysis. The process is dock
 How it Works Overview
 ----------------------
 
-|pic1| 1. Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`. 
+|pic1| 1. Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_. 
 2. Pre-processed data is ingested into ElasticSearch.
 3. Tornado server goes up, allowing API access to data.
 4. Outbreak.info local web application builds and the client side goes up.
 
-.. |pic1| image:: ../static/flowchart.pdf
-    :class: align-right
+.. |pic1| image:: ../static/flowchart.jpg
     :width: 50%
 
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
