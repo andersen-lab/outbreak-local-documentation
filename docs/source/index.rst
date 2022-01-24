@@ -13,9 +13,16 @@ How it Works Overview
 
 +-------------------------------------+---------------------------------------------------------------------------------------------------+ 
 | .. figure:: ../static/flowchart.jpg | Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_.|
+|                                     |                                                                                                   |               
+|                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
 |                                     | Tornado server goes up, allowing API access to data.                                              |
+|                                     |                                                                                                   |
+|                                     |                                                                                                   |
 |                                     | Outbreak.info local web application builds and the client side goes up.                           |
+|                                     |                                                                                                   |
+|                                     |                                                                                                   |
+|                                     |                                                                                                   |
 +-------------------------------------+---------------------------------------------------------------------------------------------------+
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
 
