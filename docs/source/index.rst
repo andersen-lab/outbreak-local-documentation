@@ -24,7 +24,7 @@ How it Works Overview
 |                                     |                                                                                                   |      
 |                                     | .                                                                                                 |      
 |                                     |                                                                                                   |      
-|                                     | .                                                                                                   |      
+|                                     | .                                                                                                 |      
 |                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
 |                                     |                                                                                                   |
@@ -36,6 +36,7 @@ How it Works Overview
 |                                     |                                                                                                   |
 |                                     |                                                                                                   |
 +-------------------------------------+---------------------------------------------------------------------------------------------------+
+
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
 
 Check out how to :doc::`install` the project.
