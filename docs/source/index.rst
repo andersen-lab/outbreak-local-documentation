@@ -36,4 +36,3 @@ Contents
    docker-commands
    parameters-and-data-formatting
    new-features
-   troubleshooting
