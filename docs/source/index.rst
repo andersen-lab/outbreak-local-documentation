@@ -20,7 +20,7 @@ How it Works Overview
 
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
 
-Check out how to :doc::`install` the project.
+Check out how to :doc:`getting-started` the project.
 
 .. note::
 
@@ -31,7 +31,6 @@ Contents
 
 .. toctree::
 
-   install
    getting-started
    docker-commands
    parameters-and-data-formatting
