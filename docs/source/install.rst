@@ -38,14 +38,3 @@ The website config file is located here:
     /web/src/localConfig.json
 
 Definitions of the parameters in these files can be found under :doc:`parameters`.
-
-
-Run A Docker Command
---------------------
-
-Once the repository is cloned and properly set up pick a docker command to run, as found here `docker-commands`.
-
-
-
-
-
