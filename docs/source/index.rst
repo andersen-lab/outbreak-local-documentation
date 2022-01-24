@@ -21,6 +21,7 @@ How it Works Overview
 |                                     |                                                                                                   |              
 |                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
+|                                     |                                                                                                   |
 |                                     | Tornado server goes up, allowing API access to data.                                              |
 |                                     |                                                                                                   |
 |                                     |                                                                                                   |
