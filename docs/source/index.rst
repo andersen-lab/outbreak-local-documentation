@@ -11,8 +11,9 @@ sequnces in to a website and api for original data analysis.
 How it Works
 ------------
 
-.. image:: /static/flowchart.png
+.. image:: ../static/flowchart.png
 
+1. 
 
 Check out how to :doc:`install` the project.
 
