@@ -11,8 +11,13 @@ sequnces in to a website and api for original data analysis. The process is dock
 How it Works Overview
 ----------------------
 
+.. table:: 
+   :align: center
+
 +-------------------------------------+---------------------------------------------------------------------------------------------------+ 
 | .. figure:: ../static/flowchart.jpg | .                                                                                                 |
+|                                     |                                                                                                   |      
+|                                     | .                                                                                                 |      
 |                                     |                                                                                                   |      
 |                                     | .                                                                                                 |      
 |                                     |                                                                                                   |      
@@ -24,17 +29,20 @@ How it Works Overview
 |                                     |                                                                                                   |      
 |                                     | .                                                                                                 |      
 |                                     |                                                                                                   |      
-|                                     | .                                                                                                 |      
-|                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
 |                                     |                                                                                                   |
+|                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
+|                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
 |                                     | Tornado server goes up, allowing API access to data.                                              |
 |                                     |                                                                                                   |
+|                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
+|                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
 |                                     |                                                                                                   |
 |                                     | Outbreak.info local web application builds and the client side goes up.                           |
-|                                     |                                                                                                   |
-|                                     |                                                                                                   |
-|                                     |                                                                                                   |
 +-------------------------------------+---------------------------------------------------------------------------------------------------+
 
 Each of the boxes in the above figure represent a containerized docker process (except for the 'Sequencing Data') that can be run via the project Makefile.
