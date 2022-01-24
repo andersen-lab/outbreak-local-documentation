@@ -12,6 +12,7 @@ Outbreak.info local requires two parameter files for fully functionality
 The website parameter file is nameed **localConfig.json** and can be found under
 
 .. code-block:: console
+
     /web/src/localConfig.json
     
 .. list-table:: Parameters in Website Configuration
@@ -82,11 +83,13 @@ If using the dockerized version of bjorn included in outbreak.info local, sequen
 must be formatted in the style of the `Andersen Lab Repository <https://github.com/andersen-lab/HCoV-19-Genomics>`.Specifically it must contain
 
 .. code-block:: console
+
     /consensus_sequences
 
 with **.fasta** consensus sequences and 
 
 .. code-block:: console
+
     /metadata.csv
     
 with metadata formated using the same template. The url to the repository must be specified in bjorn configuration file as discussed above.
