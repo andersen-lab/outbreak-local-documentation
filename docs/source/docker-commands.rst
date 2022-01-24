@@ -28,7 +28,7 @@ Preprocess new sequencing data:
 .. note::
 
     * Uses Bjorn to get .fasta and metadata files from a GitHub repo and preprocesses data for downstream use
-    * Make sure you've modified the `bjorn config file <>`_ and changed the `docker-compose.yml <>`_ bind parameter
+    * Make sure you've modified the `bjorn config file <https://github.com/andersen-lab/bjorn/blob/main/example_config.json>`_ and changed the `docker-compose.yml <https://github.com/andersen-lab/outbreak.info/blob/master/docker-compose.yml>`_ bind parameter as documented in :doc:`parameters-and-data-formatting`
 
 Ingest data into ElasticSearch and then bring the website up:
 

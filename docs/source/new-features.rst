@@ -13,6 +13,7 @@ and will be done for every county of every country with data included in the Ela
 
 .. figure:: ../static/county_example.png
 
+    :width: 75%
     Figure 1. Delta prevalence in California as of Jan. 2022.
 
 
@@ -26,4 +27,5 @@ Similarly, zipcode choropleth support for prevlaence choropleths
 
 .. figure:: ../static/zipcode_example.png
 
+    :width: 75%
     Figure 2. Delta prevalence in San Diego County as of Jan. 2022.
