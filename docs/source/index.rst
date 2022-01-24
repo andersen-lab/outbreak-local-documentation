@@ -17,11 +17,11 @@ How it Works Overview
 
 +-------------------------------------+---------------------------------------------------------------------------------------------------+ 
 | .. figure:: ../static/flowchart.jpg | Sequencing data is pre-proccessed using the tool `bjorn <https://github.com/andersen-lab/bjorn>`_.|
+|                                     |                                                                                                   |      
 |                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
 |                                     | .                                                                                                 |      
-|                                     | .                                                                                                 |      
-|                                     | .                                                                                                 |      
-|                                     | .                                                                                                 |      
+|                                     |                                                                                                   |      
 |                                     | .                                                                                                 |              
 |                                     |                                                                                                   |
 |                                     | Pre-processed data is ingested into ElasticSearch.                                                |
