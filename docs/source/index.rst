@@ -1,14 +1,20 @@
 Welcome to Outbreak Local's Documentation!
 ==========================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+Outbreak.info Local is an offshoot project from `Outbreak.info <https://outbreak.info/>`_, which originated in the Su, Wu, 
+and Andersen labs at Scripps Research. The goal of Outbreak.info Local is to allow researchers to use the outbreak.info
+visualizations for genomic variants to explore SARS-CoV-2 data from customizable data sources.
 
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Using `tornado <https://www.tornadoweb.org/en/stable/>`_,  and `elasticsearch <https://www.elastic.co/>`_ users can turn their
+sequnces in to a website and api for original data analysis.
 
-Check out the :doc:`install` section for further information, including
-how to :ref:`installation` the project.
+How it Works
+------------
+
+.. image:: /static/flowchart.png
+
+
+Check out how to :doc:`install` the project.
 
 .. note::
 
