@@ -35,4 +35,5 @@ Contents
    getting-started
    docker-commands
    parameters
+   new-features
    troubleshooting

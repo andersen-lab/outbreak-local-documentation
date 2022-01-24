@@ -1,7 +1,4 @@
-API
-===
+Troubleshooting
+===============
 
-.. autosummary::
-   :toctree: generated
 
-   lumache
