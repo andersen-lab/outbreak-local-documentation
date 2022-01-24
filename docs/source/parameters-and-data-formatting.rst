@@ -9,6 +9,10 @@ Outbreak.info local requires two parameter files for fully functionality
 1. Website parameters
 2. Bjorn parameters
 
+Additonally, if the bjorn service is going to be used, there is one parameter that must be changed in the `docker-compose.yml <https://github.com/andersen-lab/outbreak.info/blob/master/docker-compose.yml>`_ file, located `here <https://github.com/andersen-lab/outbreak.info/blob/master/docker-compose.yml#L14>`_.
+
+* Recommeneded use is to replace this line with the absolute path of the bjorn submodule 
+
 The website parameter file is nameed **localConfig.json** and can be found under
 
 .. code-block:: console
@@ -80,7 +84,7 @@ Sequencing Data Formatting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If using the dockerized version of bjorn included in outbreak.info local, sequencing data
-must be formatted in the style of the `Andersen Lab Repository <https://github.com/andersen-lab/HCoV-19-Genomics>`.Specifically it must contain
+must be formatted in the style of the `Andersen Lab Repository <https://github.com/andersen-lab/HCoV-19-Genomics>`_.Specifically it must contain
 
 .. code-block:: console
 
@@ -97,7 +101,7 @@ with metadata formated using the same template. The url to the repository must b
 Zipcode Data Formatting
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Choropleths using zipcode data are a new feature added to the outbreak.info local project. The data for this feature must be provided in a .geojson file in the same format as the example file `here <www.google.com>`.
+Choropleths using zipcode data are a new feature added to the outbreak.info local project. The data for this feature must be provided in a .geojson file in the same format as the example file `here <www.google.com>`_.
 
 
 

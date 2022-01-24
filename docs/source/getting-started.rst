@@ -39,7 +39,7 @@ Modify Parameter Configuration
 Two parameter configuration files exist within outbreak.info local.
 
 1. Example parameters for running Bjorn are located `here <https://github.com/andersen-lab/outbreak.info/blob/master/web/src/localConfig.json>`_.
-2. Example arameters for everything else are located `here <ihttps://github.com/andersen-lab/bjorn/blob/main/example_config.json>`_.
+2. Example parameters for everything else are located `here <ihttps://github.com/andersen-lab/bjorn/blob/main/example_config.json>`_.
 
 Prior to executing any commands, these files will need to be filled out appropriately.
 The :doc:`parameters-and-data-formatting` section describes each value in detail. 
@@ -47,3 +47,5 @@ The :doc:`parameters-and-data-formatting` section describes each value in detail
 
 Run a Docker Command
 --------------------
+
+Each major step (Bjorn, ElasicSearch Ingestion, ElasticSearch, Tornado, and Client) is defined as a service in the `docker-compose.yml <https://github.com/andersen-lab/outbreak.info/blob/master/docker-compose.yml>`_. The `Makefile <https://github.com/andersen-lab/outbreak.info/blob/master/Makefile>`_ allows for easy running of groups of services. Example commands to run Makefile profiles can be found :doc:`docker-commands`.
