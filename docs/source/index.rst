@@ -8,12 +8,15 @@ visualizations for genomic variants to explore SARS-CoV-2 data from customizable
 Using `tornado <https://www.tornadoweb.org/en/stable/>`_,  and `elasticsearch <https://www.elastic.co/>`_ users can turn their
 sequnces in to a website and api for original data analysis.
 
-How it Works
-------------
+How it Works Overview
+----------------------
 
 .. image:: ../static/flowchart.png
+    :class: align-right
 
-1. 
+
+1. Format sequencing data to match the `Andersen Lab <https://github.com/andersen-lab/HCoV-19-Genomics>`
+2. 
 
 Check out how to :doc:`install` the project.
 
