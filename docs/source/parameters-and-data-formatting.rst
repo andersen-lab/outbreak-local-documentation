@@ -37,13 +37,17 @@ The website parameter file is nameed **localConfig.json** and can be found under
      - the location around which the data focuses
    * - pathToZipcodes
      - String (Opt.)
-     - the relative path to the zipcode geojson file
+     - the relative path to the zipcode geojson file (REMOVE IF NO ZIPCODE INFORMATION)
    * - cores
      - Int
      - the number of cores to run bjorn with
    * - gaTracking
      - String
      - google analytics tracking placeholder
+   * - zipcodeFocus
+     - String (Opt.)
+     - the area we have zipcodes for (REMOVE IF NO ZIPCODE INFORMATION)
+
 
 .. list-table:: Parameters for Bjorn
    :widths: 30 40 40
@@ -100,6 +104,7 @@ with metadata formated using the same template. The url to the repository must b
 
 Zipcode Data Formatting
 ^^^^^^^^^^^^^^^^^^^^^^^
+If you would like to include zipcode information, include the parameter *zipcodeFocus* in the localConfig.json configuration file.
 
 Choropleths using zipcode data are a new feature added to the outbreak.info local project. The data for this feature must be provided in a .geojson file in the same format as the example file `here <www.google.com>`_.
 
