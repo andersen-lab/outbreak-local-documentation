@@ -1,5 +1,5 @@
-Welcome to Outbreak Local's Documentation!
-==========================================
+Welcome to Outbreak.network
+===========================
 
 Outbreak.network local build is an offshoot project from `Outbreak.info <https://outbreak.info/>`_, which originated in the Su, Wu, 
 and Andersen labs at Scripps Research. The goal of Outbreak.network local build is to allow researchers to use the outbreak.info
