@@ -1,12 +1,15 @@
 Welcome to Outbreak Local's Documentation!
 ==========================================
 
-Outbreak.info Local is an offshoot project from `Outbreak.info <https://outbreak.info/>`_, which originated in the Su, Wu, 
-and Andersen labs at Scripps Research. The goal of Outbreak.info Local is to allow researchers to use the outbreak.info
+Outbreak.network local build is an offshoot project from `Outbreak.info <https://outbreak.info/>`_, which originated in the Su, Wu, 
+and Andersen labs at Scripps Research. The goal of Outbreak.network local build is to allow researchers to use the outbreak.info
 visualizations for genomic variants to explore SARS-CoV-2 data from customizable data sources.
 
 Using `Tornado <https://www.tornadoweb.org/en/stable/>`_,  and `ElasticSearch <https://www.elastic.co/>`_ users can turn their
 sequnces in to a website and api for original data analysis. The process is dockerized to make it as simple as possible.
+
+You can view the list of current local builds `here <https://outbreak.network/>`_.
+
 
 How it Works Overview
 ----------------------
