@@ -15,11 +15,11 @@ Installation
 Clone The Repository
 ^^^^^^^^^^^^^^^^^^^^
 
-To install outbreak.info local first clone the repository from GitHub.
+To install outbreak.network local build first clone the repository from GitHub.
 
 .. code-block:: console
 
-    git clone https://github.com/andersen-lab/outbreak.info.git
+    git clone git@github.com:andersen-lab/outbreak.info.git
 
 Populate the Submodules
 ^^^^^^^^^^^^^^^^^^^^^^^
